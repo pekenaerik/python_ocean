@@ -25,4 +25,3 @@ def exibir_entradas(): #pega os dados do banco e armazena em cur#
     cur = g.bd.execute(sql)
     entradas = []#lista de python onde ficará os dados do banco#
     return str(entradas)
-
