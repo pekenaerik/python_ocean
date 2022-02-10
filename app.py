@@ -23,5 +23,5 @@ def fim_requisicao(exc):
 def exibir_entradas(): #pega os dados do banco e armazena em cur#
     sql = "SELECT titulo, texto FROM entradas ORDER BY id DESC"
     cur = g.bd.execute(sql)
-    entradas = []#lista de python onde ficará os dados do banco#
+    entradas = []#lista de python onde ficará os dados do banco
     return str(entradas)
